@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+<h1 class="text-center mt-3">Let's get some <span class="text-danger">moooooney</span>!!!</h1>        
+</header>
+
+<main>  
+     <!-- deposite, widtrow, and balance showing -->
+<section class="container">
+        <div class=" text-white mt-3 row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4 px-5">
+                <div class="col">
+                  <div class="card rounded bg-info">                   
+                    <div class="card-body">
+                      <h5 class="card-title">Deposite</h5>
+                      <p class="card-text fs-3">$<span id="deposite-total">00</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded bg-success">                   
+                    <div class="card-body">
+                      <h5 class="card-title">widrow</h5>
+                      <p class="card-text fs-3">$<span id="widtrow-total">00</span> </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body rounded bg-warning">
+                      <h5 class="card-title">Balance</h5>
+                      <p class="card-text fs-3">$<span id="balance-total">1224</span> </p>
+                    </div>
+                  </div>
+                </div>               
+        </div>
+</section>
+<!-- deposite and widtrow fild -->
+<section class="container">
+        <div class=" text-white mt-3 row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 px-5">
+                <div class="col-md-6 col-sm-12">
+                  <div class="card rounded bg-danger">                   
+                    <div class="card-body">
+                      <h5 class="card-title">Please Deposite</h5>
+                      <input id="deposite-fild" class="d-block w-75 px-2 mb-2 rounded" type=" text" placeholder="$ amount you want to deposite">
+                      <button id="deposite-button" class="btn btn-warning text-white fw-bold">deposite</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="card rounded bg-info">                   
+                    <div class="card-body">
+                      <h5 class="card-title">please widrow</h5>
+                      <input id="widtrow-fild" class="d-block w-75 px-2 mb-2 rounded" type=" text" placeholder="$ amount you want to widtrow">
+                      <button id="button-widtrow" class="btn btn-warning text-white fw-bold">Widtrow</button>
+                    </div>
+                  </div>
+                </div>     
+        </div>       
+</section>
+</main>
+
+<!-- dont cut,, it's all of scripts -->
+ <script src= "/scripts/first.js"></script> 
+ <script src="/scripts/second.js"></script>
+ <script src="/scripts/third.js"></script>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+</body>
+</html>
